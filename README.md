@@ -1,53 +1,57 @@
-# 🛡️ SpyDroid - Malware Scanner | أداة سباي درويد لفحص البرمجيات الخبيثة
+# 🕷️ SpyDroid
 
-![SpyDroid Logo](tools.jpg)  
+### أداة SpyDroid — لفحص وتحليل الملفات والروابط (EXE/APK/URL) بأسلوب ذكي وسهل، تعطيك درجة الخطورة ومعلومات تحليلية بلغة عربية أو إنجليزية.
 
-
----
-
-## 🌍 Overview | نظرة عامة
-
-**SpyDroid** is a powerful tool to scan and analyze APK, EXE files, and URLs for malware. It supports both Arabic and English, and works seamlessly on Linux and Termux.  
-**سباي درويد** هي أداة قوية لتحليل وفحص ملفات APK و EXE والروابط لاكتشاف البرمجيات الخبيثة، تدعم اللغة العربية والإنجليزية، وتعمل بسلاسة على لينكس وترمكس.
+- لا يتطلب أوامر - فقط شغّله.
+- يدعم Termux وLinux.
+- كشف ذكي لعناوين URL أو أنواع الملفات.
+- واجهة ثنائية اللغة (العربية/الإنجليزية).
+- مستويات مخاطر بسيطة: آمن - مريب - خطير - حرج.
 
 ---
 
-## ✨ Features | الميزات
+## 🧠 What is SpyDroid?
 
-- 🔍 Scans APK, EXE, and any URL  
-  🔍 تفحص ملفات APK و EXE وأي رابط
+**SpyDroid** is an intelligent file & link analysis tool (supports EXE/APK/URL). It provides risk level and malware info in Arabic or English.
 
-- 🧠 Intelligent threat classification (Safe, Suspicious, Dangerous...)  
-  🧠 تصنيف ذكي لمستوى الخطورة (آمن، مشكوك، خطير...)
-
-- 🌐 Multi-language support: Arabic and English  
-  🌐 تدعم اللغتين: العربية والإنجليزية
-
-- 📦 Fully offline (except VirusTotal lookup)  
-  📦 تعمل دون إنترنت ما عدا فحص فايروس توتال
-
-- 🧾 No command input required – simple interactive flow  
-  🧾 لا تحتاج إلى كتابة أوامر – واجهة تفاعلية بسيطة
-
-- ⚙️ Linux & Termux compatible  
-  ⚙️ متوافقة مع لينكس وترمكس
-
-- ✅ Built-in signature: `by fsociety`  
-  ✅ توقيع مدمج في النتائج: `by fsociety`
+- No commands required – just run it
+- Supports Termux & Linux
+- Smart detection of URLs or file types
+- Dual-language interface (Arabic / English)
+- Simple risk levels: Safe – Suspicious – Dangerous – Critical
 
 ---
 
-## 📷 Screenshots cmd | الشرح
+## 📸 صور الأداة | Tool Images
 
-> *(https://github.com/FsociteyF/spydroid/blob/main/cmd.jpg?raw=true)*  
-
+### 🧪 صورة أوامر الأداة | Commands Screenshot  
+![SpyDroid Commands](https://github.com/FsociteyF/spydroid/blob/main/cmd.jpg?raw=true)
 
 ---
 
-## ⚙️ Installation | التثبيت
+### 🛠️ واجهة الأدوات | Tools Interface  
+![SpyDroid Tools](https://github.com/FsociteyF/spydroid/blob/main/tools.png?raw=true)
+
+---
+
+## 🚀 التثبيت والتشغيل | Installation & Running
 
 ```bash
-git clone https://github.com/YourUsername/spydroid
+# 1. تثبيت Python (إذا لم يكن مثبتًا)
+pkg install python -y       # لتيرمكس
+sudo apt install python3 -y # للينكس
+
+# 2. تثبيت Git (إذا لم يكن مثبتًا)
+pkg install git -y
+# أو
+sudo apt install git -y
+
+# 3. تحميل الأداة
+git clone https://github.com/FsociteyF/spydroid
 cd spydroid
-pip install requests colorama rich
+
+# 4. تثبيت المتطلبات
+pip install requests colorama
+
+# 5. تشغيل الأداة
 python spydroid.py
