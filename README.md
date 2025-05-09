@@ -55,3 +55,11 @@ pip install requests colorama
 
 # 5. تشغيل الأداة
 python spydroid.py
+
+
+
+`````
+Good luck 😊
+follow me : https://fsocitey.tiiny.site/
+حظا موفقا 😊
+تابعني : https://fsocitey.tiiny.site/
