@@ -39,7 +39,7 @@
 
 ## 📷 Screenshots cmd | الشرح
 
-> *(https://github.com/FsociteyF/spydroid/blob/main/cmd.jpg)*  
+> *(https://github.com/FsociteyF/spydroid/blob/main/cmd.jpg?raw=true)*  
 
 
 ---
